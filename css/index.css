@@ -1,6 +1,50 @@
-
+body, html {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0 auto;
+    height: 100%;
+}
 
 body {
-    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    max-height: 800px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
+}
+
+.nav-bar button {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.nav-bar img {
+    padding-left: 10px;
+    width: 10%;
+}
+
+.landing-page-content {
+    background-image: url('../images/friendsphoto.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100%;
+}
+
+.landing-page-content-text {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.landing-page-content h1, p {
+    padding-top: 5rem;
 }
