@@ -1,5 +1,12 @@
 {
   "dependencies": {
+<<<<<<< HEAD
+    "@auth0/auth0-spa-js": "^2.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.12.0"
+=======
     "@auth0/auth0-spa-js": "^2.0.3"
+>>>>>>> c19bf154edfd62c1f041a92377975e2df8567eaa
   }
 }

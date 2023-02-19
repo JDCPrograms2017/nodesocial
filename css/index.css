@@ -21,10 +21,13 @@ body {
     padding-left: 10px;
     width: 100px;
     height: 100%;
+<<<<<<< HEAD
+=======
 }
 
 .nav-bar p {
     font-size: 20px;
+>>>>>>> c19bf154edfd62c1f041a92377975e2df8567eaa
 }
 
 .nav-bar button {
@@ -75,6 +78,8 @@ body {
     text-shadow: 2px 1px 3px black;
 }
 
+<<<<<<< HEAD
+=======
 .landing-page-content h1 {
     padding-top: 5rem;
 }
@@ -117,6 +122,7 @@ body {
    
 }
 
+>>>>>>> c19bf154edfd62c1f041a92377975e2df8567eaa
 .landing-page-content h1, p {
     padding-top: 7rem;
 }
