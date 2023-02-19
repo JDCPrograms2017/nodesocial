@@ -67,3 +67,35 @@ body {
     height: 60%;
     padding-top: 20px;
 }
+
+.profile-avatar {
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.profile-avatar h1 {
+    color: #39a633
+}
+
+.profile-avatar img {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.profile-bio {
+    color: gray;
+    font-size: 20px;
+}
+
+.profile-grid-content {
+    justify-content: space-between;
+}
+
+.profile-grid-content img {
+    width: 40px;
+}
+
+.profile-grid-content p {
+    padding-left: 10px;
+}
