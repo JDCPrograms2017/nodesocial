@@ -3,7 +3,9 @@ const bodyParser = require('body-parser');
 const { Pool, Client } = require('pg');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+app.use(express.urlencoded({extended: true})); 
+app.use(express.json());
 
 const connectionString = 'postgresql://joshua:O0nUO5XDUlLJ-YjBn-Mtfw@swamp-manta-5267.6wr.cockroachlabs.cloud:26257/interestfields?sslmode=verify-full'
  
