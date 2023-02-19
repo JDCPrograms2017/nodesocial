@@ -67,3 +67,131 @@ body {
     height: 60%;
     padding-top: 20px;
 }
+
+.user-bar {
+    height: 30px;
+    background-image: linear-gradient(#228c29, #034617);
+}
+
+.user-bar h1 {
+    padding-top: 3px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.profile-avatar {
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.profile-avatar h1 {
+    color: #39a633
+}
+
+.profile-avatar img {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.profile-bio {
+    color: gray;
+    font-size: 20px;
+}
+
+.profile-grid-content {
+    margin: 0 auto;
+    display: table;
+    width: auto;
+    padding-top: 40px;
+}
+
+.profile-grid-content img {
+    width: 40px;
+    float: left;
+}
+
+.profile-grid-content p {
+    padding-left: 10px;
+    margin: auto;
+    float: right;
+    padding-top: 8px;
+}
+
+.profile-bday-school {
+    display: table-row;
+    height: 50px;
+}
+
+.profile-bday {
+    margin: auto;
+    display: table-cell;
+    padding-right: 100px;
+}
+
+.profile-school {
+    margin: auto;
+    display: table-cell;
+}
+
+.school-desc {
+    padding-right: 200px;
+}
+
+.profile-job-interests {
+    display: table-row;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.profile-job {
+    margin: auto;
+    display: table-cell;
+    padding-right: 100px;
+}
+
+.profile-interests {
+    margin: auto;
+    display: table-cell;
+    padding-right: 100px;
+}
+
+.dm-button-div {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dm-button-div button {
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-right: 20px;
+    width: 225px;
+    height: 75px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    background-image: linear-gradient(#74e895, #3eea6f);
+    background-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dm-button-div button:link {
+    color: #3eea6f;
+    text-decoration: none;
+}
+
+.dm-button-div button:hover {
+    background-image: linear-gradient(#a6e874, #91ea3e);
+    color: white !important;
+}
+
+.dm-button-div button:active {
+    border: #3eea6f;
+    background-color: white;
+    color: black !important;
+   
+}
