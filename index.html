@@ -19,28 +19,18 @@
 <body>
     <div class="nav-bar">
         <img src="./images/NodeLogo.png">
-        <button id="loginbutton" onclick="window.location.href = 'loggedin.html';">Login / Signup</button>
+        <button id="loginbutton" onclick="window.location.href = 'loggedin.html';">Login / Sign up</button>
     </div>
     <div class="landing-page-content">
         <div class="landing-page-content-text">
-            <h1 class="title">Node Social</h1>
-            <p class="landing-page moto">Finding new friends, made easy.</p>
+            <h1 class="title">Finding new friends, made easy.</h1>
+            <p class="landing-page moto">With Node Social, you can meet others nearby who share your interests, and form new friendships.</p>
+            <div class="landing-page-content-button">
+                <button id="getstarted" onclick="window.location.href = 'loggedin.html';">Get Started</button></div>
+            </div>
         </div>
-    </div>
-    <button onclick="myFunction()">Try it</button>
+        
 
-    <p id="demo"></p>
-    
-    <script>
-    function myFunction() {
-      var txt;
-      if (confirm("Find singles in your area?")) {
-        txt = "God damn";
-      } else {
-        txt = "You pressed Cancel!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-    </script>
+    </div>
 </body>
 </html>
