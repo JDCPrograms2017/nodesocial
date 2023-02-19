@@ -6,7 +6,7 @@ auth0.createAuth0Client({
     }
   }).then(async (auth0Client) => {
     // Assumes a button with id "login" in the DOM
-    const loginButton = document.getElementById("login");
+    const loginButton = document.getElementById("loginbutton");
   
     loginButton.addEventListener("click", (e) => {
       e.preventDefault();
