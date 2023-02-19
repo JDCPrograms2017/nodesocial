@@ -10,6 +10,7 @@ body {
 }
 
 .nav-bar {
+    align-items: left;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -20,6 +21,13 @@ body {
     padding-left: 10px;
     width: 100px;
     height: 100%;
+<<<<<<< HEAD
+=======
+}
+
+.nav-bar p {
+    font-size: 20px;
+>>>>>>> c19bf154edfd62c1f041a92377975e2df8567eaa
 }
 
 .nav-bar button {
@@ -51,7 +59,7 @@ body {
 }
 
 .landing-page-content {
-    background-image: url('../images/friendsphoto.jpg');
+    background-image: url('../images/friendsphotogreenhaze.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,15 +69,60 @@ body {
 }
 
 .landing-page-content-text {
-    width: 50%;
+    width: 70;
     height: 100%;
     margin: auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 1px 3px black;
 }
 
+<<<<<<< HEAD
+=======
+.landing-page-content h1 {
+    padding-top: 5rem;
+}
+
+.landing-page-content p {
+    padding-top: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.landing-page-content-button button {
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-right: 20px;
+    width: 225px;
+    height: 75px;
+    font-size: 35px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    background-image: linear-gradient(#74e895, #3eea6f);
+    background-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.landing-page-content-button button:link {
+    color: #3eea6f;
+    text-decoration: none;
+}
+
+.landing-page-content-button button:hover {
+    background-image: linear-gradient(#a6e874, #91ea3e);
+    color: white !important;
+}
+
+.landing-page-content-button button:active {
+    border: #3eea6f;
+    background-color: white;
+    color: black !important;
+   
+}
+
+>>>>>>> c19bf154edfd62c1f041a92377975e2df8567eaa
 .landing-page-content h1, p {
     padding-top: 7rem;
 }
