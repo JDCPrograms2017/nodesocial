@@ -27,6 +27,20 @@
             <p class="landing-page moto">Finding new friends, made easy.</p>
         </div>
     </div>
+    <button onclick="myFunction()">Try it</button>
 
+    <p id="demo"></p>
+    
+    <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Find singles in your area?")) {
+        txt = "God damn";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
 </body>
 </html>
